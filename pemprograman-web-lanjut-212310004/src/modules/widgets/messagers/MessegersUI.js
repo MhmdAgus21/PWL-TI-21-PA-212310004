@@ -15,12 +15,12 @@ export default function MessagersUI() {
     const [writeChat, setWriteChat] = useState("");
     const [myChat, setMyChat] = useState([
         { id: 1, message: "Hi", from: "Febri", date: "2024-02-22 10:30:00" },
-        { id: 2, message: "Iya", from: "Frila", date: "2024-02-22 10:35:00" },
+        { id: 2, message: "Iya", from: "Agus", date: "2024-02-22 10:35:00" },
         { id: 3, message: "Apakah itu Micro-Frontend ?", from: "Febri", date: "2024-02-22 10:50:00" },
-        { id: 4, message: "Kaga tau", from: "Frila", date: "2024-02-22 10:52:00" },
-        { id: 5, message: "Apaan dah", from: "Frila", date: "2024-02-22 10:52:00" },
+        { id: 4, message: "Kaga tau", from: "Agus", date: "2024-02-22 10:52:00" },
+        { id: 5, message: "Apaan dah", from: "Agus", date: "2024-02-22 10:52:00" },
         { id: 6, message: "Arsitektur pada bagian FrontEnd aplikasi yang berpusat pada independensi suatu fitur dengan fitur lainnya.", from: "Febri", date: "2024-02-22 11:00:00" },
-        { id: 7, message: "Bijiiii", from: "Frila", date: "2024-02-22 12:12:00" }
+        { id: 7, message: "Bijiiii", from: "Agus", date: "2024-02-22 12:12:00" }
     ]);
     const endOfMessagesRef = useRef(null);
     
